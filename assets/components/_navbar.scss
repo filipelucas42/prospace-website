@@ -41,7 +41,7 @@
 
     .nav-bar-brand {
         display:flex;
-        margin-right:1rem;
+        //margin-right:1rem;
         .brand {
             display:flex;
             align-items: center;
@@ -77,7 +77,7 @@
         transition: all .5s ease;
         position: absolute;
         top: -350%;
-        width:100vw;
+        width:100%;
         margin-left:0;
         &.is-active{
             top:100%;

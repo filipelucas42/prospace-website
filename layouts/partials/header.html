@@ -1,6 +1,6 @@
 <nav class="nav">
     <div class="nav-bar-brand">
-        <img class="brand" src="/images/prospace_cinzas_site.png"></img>
+        <img class="brand" src="/images/logo.png"></img>
         <div class="nav-burger" onclick="myLib.toggleBurger(this)">
             <div class="bar1"></div>
             <div></div>
@@ -9,9 +9,9 @@
     </div>
     <div class="nav-items-container" id="nav-items-container">
         <div class="nav-items nav-end">
-            <div class="nav-item">INÍCIO</div>
+            <a href="/" class="nav-item">INÍCIO</a>
         </div>
-        {{ range .Pages }}
+        {{ range .Site.Sections }}
         <div class="nav-items">
             <a class="nav-item" href="{{ .Permalink }}">{{ .Title }}</a>
         </div>

@@ -1,3 +1,12 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+enableEmoji = true
+[markup.goldmark.renderer]
+unsafe= true
+[params]
+[params.footer]
+prospace = "A PROSPACE marca presença no mercado português e africano, privilegiando os países de expressão oficial portuguesa, países mais próximos e com uma cultura partilhada, com necessidades particulares e desafios concretos."
+member = [["➡️ APMI", "https://www.apmi.pt"]]
+presence = ["⭐ Portugal", "⭐ Angola", "⭐ Monçambique", "⭐ São Tomé e Príncipe"]
+contacts =[ "✉️ geral@prospace.pt", "📞 +351 210 990 079", "🏢 R. Latino Coelho, 87, Sala 22/23", "1050-134 Lisboa, Portugal"]
