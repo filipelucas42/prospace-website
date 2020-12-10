@@ -7,7 +7,7 @@
         <div class="container-fluid services pt-1 pb-1" style="background-color:rgb(236, 240, 241);">
             {{range where .Site.RegularPages "Section" "servicos"}}
                 <div class="p-1" style="position:relative;min-height: 135px;">
-                    <h3 class="text-center" style="line-height: normal;font-weight: 300;">{{.Title}}</h3>
+                    <h3 class="text-center" style="line-height: normal;font-weight: 315;">{{.Title}}</h3>
                     <a class="margin-center btn btn-primary" style="position:absolute;bottom:8px;left:0; right: 0;" href="{{.Permalink}}">+ Info</a>
                 </div>
             {{end}}

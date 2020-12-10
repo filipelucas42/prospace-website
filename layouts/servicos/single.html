@@ -1,6 +1,7 @@
 {{define "main"}}
 {{$image := .Resources.GetMatch "image*"}}
 {{$title := .Title}}
+{{$logo := .Resources.GetMatch "logo*"}}
 <div class="container">
     <div style="display:flex;flex-wrap: wrap;">
         <div style="width: 60%;min-width: 350px;" class="margin-center">
@@ -32,3 +33,4 @@
     </div>
 </div>
 {{end}}
+

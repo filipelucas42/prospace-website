@@ -2,8 +2,8 @@
     display:grid;
     background-color:rgb(236, 240, 241);
     grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
-    background-color: rgb(55, 60, 64);
     grid-gap: 10px;
+    background-color: rgb(55, 60, 64);
 }
 
 .about {
