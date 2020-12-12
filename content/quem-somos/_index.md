@@ -1,7 +1,7 @@
 ---
 title: "QUEM SOMOS"
 date: 2020-12-07T00:47:29Z
-draft: true
+draft: false
 ---
 <h3 style="line-weight:300;">Quem Somos</h3>
 

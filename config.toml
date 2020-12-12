@@ -2,9 +2,15 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 enableEmoji = true
+
+theme = "prospace"
+
 [markup.goldmark.renderer]
 unsafe= true
 [params]
+#color = "#5da87e"
+color = "black"
+
 [params.footer]
 prospace = "A PROSPACE marca presença no mercado português e africano, privilegiando os países de expressão oficial portuguesa, países mais próximos e com uma cultura partilhada, com necessidades particulares e desafios concretos."
 member = [["➡️ APMI", "https://www.apmi.pt"]]
