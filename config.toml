@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = ""
 enableEmoji = true
+uglyurls = true
 
 theme = "prospace"
 
@@ -10,8 +11,16 @@ unsafe= true
 [params]
 #color = "#5da87e"
 color = "black"
+partners = true
+facility-managment = false
+
+[params.homepage]
+hero = "Prospace"
+hero-title = "CONSULTORIA EM INVESTIMENTO IMOBILIÁRIO"
+hero-subtitle = "ASSET MANAGEMENT"
 
 [params.footer]
+company = "PROSPACE"
 prospace = "A PROSPACE marca presença no mercado português e africano, privilegiando os países de expressão oficial portuguesa, países mais próximos e com uma cultura partilhada, com necessidades particulares e desafios concretos."
 member = [["➡️ APMI", "https://www.apmi.pt"]]
 presence = ["⭐ Portugal", "⭐ Angola", "⭐ Monçambique", "⭐ São Tomé e Príncipe"]
